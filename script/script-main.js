@@ -146,7 +146,7 @@ fetch('./html/nav.html') // nav.html 경로
         document.querySelector('.accessories-circle-02').style.display = 'none';
 
         // X 아이콘으로 전환
-        toggleIcon.src = '../images/nav/x-icon.png';
+        toggleIcon.src = 'images/nav/x-icon.png';
       } else {
         accessoriesText.style.display = 'block';
         numbering.style.display = 'block';
@@ -159,9 +159,9 @@ fetch('./html/nav.html') // nav.html 경로
 
         // 마지막 페이지인지 확인 후 아이콘 설정
         if (isLastPage) {
-          toggleIcon.src = '../images/nav/hamburger-icon_wh.png'; // 흰색 햄버거 아이콘 유지
+          toggleIcon.src = 'images/nav/hamburger-icon_wh.png'; // 흰색 햄버거 아이콘 유지
         } else {
-          toggleIcon.src = '../images/nav/hamburger-icon.png'; // 기본 햄버거 아이콘 복원
+          toggleIcon.src = 'images/nav/hamburger-icon.png'; // 기본 햄버거 아이콘 복원
         }
       }
     });
@@ -182,9 +182,9 @@ fetch('./html/nav.html') // nav.html 경로
 
         // 마지막 페이지인지 확인 후 아이콘 설정
         if (isLastPage) {
-          toggleIcon.src = '../images/nav/hamburger-icon_wh.png'; // 흰색 햄버거 아이콘 유지
+          toggleIcon.src = 'images/nav/hamburger-icon_wh.png'; // 흰색 햄버거 아이콘 유지
         } else {
-          toggleIcon.src = '../images/nav/hamburger-icon.png'; // 기본 햄버거 아이콘 복원
+          toggleIcon.src = 'images/nav/hamburger-icon.png'; // 기본 햄버거 아이콘 복원
         }
       });
     });
@@ -223,7 +223,7 @@ fetch('./html/nav.html') // nav.html 경로
     function applyLastPageStyles() {
       const toggleIcon = document.getElementById('toggle-icon');
 
-      toggleIcon.src = '../images/nav/hamburger-icon_wh.png';
+      toggleIcon.src = 'images/nav/hamburger-icon_wh.png';
       navigation.style.backgroundColor = 'var(--light-black)';
       accessoriesText.style.color = 'var(--dim-gray)';
       const accessoriesTextBefore = document.querySelector('.accessories-text');
@@ -237,9 +237,9 @@ fetch('./html/nav.html') // nav.html 경로
       const toggleIcon = document.getElementById('toggle-icon');
       
       if (document.querySelector('.navigation').classList.contains('hidden')) {
-        toggleIcon.src = '../images/nav/hamburger-icon.png';
+        toggleIcon.src = 'images/nav/hamburger-icon.png';
       } else {
-        toggleIcon.src = '../images/nav/x-icon.png';
+        toggleIcon.src = 'images/nav/x-icon.png';
       }
       
       navigation.style.backgroundColor = 'var(--MainBlue)';

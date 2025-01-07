@@ -1263,6 +1263,7 @@ article#etc .cursor.main {
   background-color: var(--light-gray);
   margin: 0 35px;
   padding: 20px;
+  text-wrap: nowrap;
 }
 .project-main-text {
   font-size: 22px;
