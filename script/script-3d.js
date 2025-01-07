@@ -63,7 +63,7 @@ loader.load(
     (gltf) => {
         const model = gltf.scene;
 
-        model.scale.set(110, 110, 110); // 모델 크기 확대
+        model.scale.set(130, 130, 130); // 모델 크기 확대
 
         // 모델 중심점 계산 및 이동
         const box = new THREE.Box3().setFromObject(model);

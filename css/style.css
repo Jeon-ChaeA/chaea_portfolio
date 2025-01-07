@@ -386,18 +386,6 @@ article#etc .cursor.main {
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
-/* .contact-sns {
-  position: absolute;
-  right: 60px;
-  bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.contact-sns a {
-  width: 54px;
-  height: 54px;
-} */
 /* mouse-scroll */
 .mouse-scroll{
   position: absolute;
@@ -884,7 +872,7 @@ article#etc .cursor.main {
   flex-direction: column;
 }
 .popup-wrap .popup-icon span {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   color: #112d6a;
 }
@@ -1387,6 +1375,7 @@ button:hover span {
 }
 .skills-3 {
   top: 483px;
+  height: 200px;
 }
 .main-project-skill {
   width: 227px;
@@ -1449,7 +1438,7 @@ button:hover span {
   height: 100%;
   background-color: var(--SubBlue);
   border-radius: inherit;
-  transition: width 2s ease-in-out;
+  transition: width 1s ease-in-out;
 }
 .skill-card:hover .center-bar::before {
   width: var(--skill-percentage);
@@ -2069,7 +2058,7 @@ button:hover span {
   font-size: 32px;
   font-weight: 600;
   color: var(--white);
-  margin-bottom: -60px;
+  margin-bottom: -48px;
 }
 #contact-form input {
   background-color: #f9f9f949;
@@ -2091,7 +2080,7 @@ button:hover span {
   background-color: transparent;
   border: transparent;
   position: absolute;
-  top: 40px;
+  top: 56px;
   right: 5px;
 }
 #contact-form::before {
@@ -2100,10 +2089,32 @@ button:hover span {
   height: 2px;
   background-color: var(--white);
   position: absolute;
-  bottom: -15px;
+  bottom: 3px;
 }
+/* .contact-sns {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-sns a {
+  width: 54px;
+  height: 54px;
+} */
 .contact .contact-sns {
+  position: absolute;
   top: 40%;
+  right: 60px;
+  bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-sns a {
+  width: 54px;
+  height: 54px;
 }
 .myname {
   position: absolute;
