@@ -118,9 +118,9 @@
 
 ## 🔗 링크
 
-- [Figma](https://www.figma.com/design/pgjrEDeQH0x6ogzVNMS6hA/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%A0%84%EC%B1%84%EC%95%84?node-id=121-341&t=K5y2eRG6dNCuzWds-1)
+- [Figma](https://www.figma.com/design/O8IpV9A3OqZvtqM7oeTw5U/%EA%B0%9C%EC%9D%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4?node-id=0-1&t=u1x1J8mbiZgTn7gk-1)
   
-- [DEMO](https://jeon-chaea.github.io/KoreaPostalServiceAgency_Portfolio/)
+- [DEMO](https://jeon-chaea.github.io/chaea_portfolio/)
 
 
 # 📞 Contact
