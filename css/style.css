@@ -1526,13 +1526,13 @@ button:hover span {
   --skill-percentage: 57%;
 }
 .skill-html03 .center-bar {
-  --skill-percentage: 35.5%;
+  --skill-percentage: 34.9%;
 }
 .skill-css03 .center-bar {
   --skill-percentage: 34.8%;
 }
 .skill-js03 .center-bar {
-  --skill-percentage: 27.9%;
+  --skill-percentage: 30.3%;
 }
 .skill-figma03 .center-bar {
   --skill-percentage: 35%;
@@ -1628,7 +1628,9 @@ button:hover span {
 }
 .html,
 .css,
-.js {
+.js,
+.scss,
+.react {
   width: 90px;
   height: 50px;
   border-radius: 25px;

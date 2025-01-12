@@ -738,11 +738,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentSubProjectIndex = 0; // 현재 표시 중인 인덱스
 
   const backgroundColors = {
-    google: '#4D8CE3',
-    netflix: '#E03333',
-    homeCheck: '#2EC05A',
-    agency: '#49ABF3',
-    class101: '#555555',
+    class101: '#6A5ACD',
+    blisse: '#38B2AC',
+    homeCheck: '#4CAF50',
+    PetStory: '#D2B48C',
+    MovieBox: '#708090',
+    agency: '#5AA9E6',
   };
 
   // 콘텐츠를 표시하는 함수
